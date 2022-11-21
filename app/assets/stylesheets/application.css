@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.letters {
+  list-style: none;
+}
+
+.letters li {
+  display: inline;
+  color: white;
+  background-color: blue;
+  border: 1px, solid;
+  padding: 3px 10px;
+}
